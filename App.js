@@ -26,6 +26,11 @@ function b(a) {
 }
 for (let i in dictionary) {
   dictionary[i].uid = b();
+  // while we're here, let's make sure the English isn't undefined.
+  if (typeof dictionary[i].definition == 'undefined') {
+    dictionary[i].definition = {};
+    dictionary[i].definition.english = '';
+  }
 }
 
 // home screen is a list view of all entries
@@ -35,14 +40,13 @@ class HomeScreen extends React.Component {
     return {
       headerTitle: 'Home',
       headerRight: (
-        <Button
-          title="about"
+        <TouchableOpacity
+          style={{paddingRight: 12}}
           onPress={() => {
-            navigation.navigate('About', {
-              otherParam: 'anything you want here',
-            });
-          }}
-        />
+            navigation.navigate('About', {otherParam: '…'});
+          }}>
+          <Text style={styles.AboutTextBold}>About</Text>
+        </TouchableOpacity>
       ),
     };
   };
@@ -57,12 +61,15 @@ class HomeScreen extends React.Component {
       <SafeAreaView style={styles.Container}>
         <FlatList
           data={dictionary}
-		  keyExtractor={item => item.uid}
+          keyExtractor={item => item.uid}
           renderItem={({item}) => (
             <TouchableOpacity
-              onPress={() => this.toEntry(item)}
-              style={[styles.ListRow]}>
-              <Text>{item.lexeme} {item.uid}</Text>
+              style={[styles.ListRow]}
+              onPress={() => this.toEntry(item)}>
+              <Text style={[styles.ListItemLexeme]}>{item.lexeme}</Text>
+              <Text numberOfLines={1} style={[styles.ListItem]}>
+                {item.definition.english}
+              </Text>
             </TouchableOpacity>
           )}
         />
@@ -80,12 +87,14 @@ class EntryScreen extends React.Component {
   };
   render() {
     const {navigation} = this.props;
+    const entry = navigation.getParam('item', 'NO-ID');
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>Entry Screen</Text>
-        <Text>
-          item: {JSON.stringify(navigation.getParam('item', 'NO-ID'))}
-        </Text>
+      <View style={styles.Container}>
+        <Text style={styles.EntryHeader}>{entry.lexeme}</Text>
+        <Text>{entry.phonemic}</Text>
+        <Text>{entry.pos}</Text>
+        <Text>{entry.definition.english}</Text>
+        <Text>{JSON.stringify(entry.example)}</Text>
       </View>
     );
   }
@@ -99,7 +108,6 @@ class AboutScreen extends React.Component {
   render() {
     const {navigation} = this.props;
     const otherParam = navigation.getParam('otherParam', 'some default value');
-
     return (
       <View style={styles.AboutPage}>
         <View>
@@ -143,9 +151,9 @@ const RootStack = createStackNavigator(
     transitionConfig: () => fromRight(),
     defaultNavigationOptions: {
       headerStyle: {
-        backgroundColor: '#6B3851',
+        backgroundColor: '#0B1C32',
       },
-      headerTintColor: '#fff',
+      headerTintColor: '#FEFEFE',
       headerTitleStyle: {
         fontWeight: 'bold',
       },
