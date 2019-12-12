@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Image, View, Text } from 'react-native';
+import { Button, Image, View, Text, SafeAreaView, FlatList, TouchableOpacity } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { fromRight } from 'react-navigation-transitions';
@@ -7,23 +7,39 @@ import { fromRight } from 'react-navigation-transitions';
 const metaData = require('./metadata');
 const styles = require('./styles');
 
+let dictionary = require('./dictionary.json');
+
+function ListItem({ title }) {
+  return (
+    <View style={styles.ListRow}>
+      <Text>{title}</Text>
+    </View>
+  );
+}
+
 class HomeScreen extends React.Component {
 	static navigationOptions = {
       title: 'Home'
     };
   render() {
     return (
-      <View style={styles.Container}>
-        <Text>{metaData.name}</Text>
-        <Button
-          title="Go to Details"
-          onPress={() => {
-            this.props.navigation.navigate('Details', {
-              otherParam: 'anything you want here',
-            });
-          }}
-        />
-      </View>
+      // <View style={styles.Container}>
+	  <SafeAreaView style={styles.container}>
+		  <FlatList
+			data={dictionary}
+			renderItem={({ item }) => <ListItem title={item.lexeme} />}
+		  />
+		</SafeAreaView>
+        // <Text>{metaData.name}</Text>
+        // <Button
+        //   title="Go to Details"
+        //   onPress={() => {
+        //     this.props.navigation.navigate('Details', {
+        //       otherParam: 'anything you want here',
+        //     });
+        //   }}
+        // />
+      // </View>
     );
   }
 }

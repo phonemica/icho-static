@@ -1,0 +1,739 @@
+[
+  {
+    "lexeme": "k",
+    "phonemic": "ka9",
+    "sound": "phk_ka9.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "the first letter of the Tai Phake alphabet"
+    },
+    "gloss": {
+      "english": "first.letter.Tai.Alphabet"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "24/Jan/2016",
+      "unix": 1453554000
+    }
+  },
+  {
+    "lexeme": "kkq",
+    "phonemic": "kAk1",
+    "sound": "phk_khau3saan6nj4kaak1naa6.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "the unhusked rice mixed in the husked ones "
+    },
+    "gloss": {
+      "english": "unhusked.rice "
+    },
+    "example": {
+      "script": "xWsnqenkkqna",
+      "phonemic": "khau3 sAn6 nJ4 kAk1 nA6",
+      "english": "the husked rice is mixed with plenty of unhusked rice "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kkD",
+    "phonemic": "kAk3 kAk3",
+    "sound": "phk_la1kaa2hauN4hai3mq2kaak3kaak3.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "Onom -caws of crow "
+    },
+    "gloss": {
+      "english": "caws of crow"
+    },
+    "example": {
+      "script": "lakahogqhjemakkD",
+      "phonemic": "lA1 kA2 hauN4 hai3 mq2 kAk3 kAk3",
+      "english": "crow is cawing repeatedly and sound like that"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "13/Apr/2016",
+      "unix": 1460469600
+    }
+  },
+  {
+    "lexeme": "kkq",
+    "phonemic": "kAk1",
+    "sound": "phk_kaak1.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "bamboo or wooden spoon "
+    },
+    "gloss": {
+      "english": "spoon"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kkqgF",
+    "phonemic": "kAk1 Njm5",
+    "sound": "phk_kaak1Njm5.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a pronged bamboo or wooden spoon "
+    },
+    "gloss": {
+      "english": "pronged bamboo or wooden spoon "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kkqxutqxW",
+    "phonemic": "kAk1 khot4 khau3",
+    "sound": "phk_kaak1khot4khau3.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a wooden spoon or ladle for serving food"
+    },
+    "gloss": {
+      "english": "wooden spoon ( photo )"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kkqpnq",
+    "phonemic": "kAk1 pan1 ",
+    "sound": "phk_kaak1pan1.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a swirling spoon, a kind of stick used in cooking to stir curry, used, for example, to thin out the lentils while making dal "
+    },
+    "gloss": {
+      "english": "swirling.spoon "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kkq",
+    "phonemic": "kAk4",
+    "sound": "phk_kaak4wai4caa5cau3mon2.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to keep one portion"
+    },
+    "gloss": {
+      "english": "keep.portion"
+    },
+    "example": {
+      "script": "kkqwjcacWmounq",
+      "phonemic": "kAk4 wai4 cA5 cau3 mon2",
+      "english": "keep one portion ( of food ) for the monks"
+    }
+  },
+  {
+    "lexeme": "kkDmY igD",
+    "phonemic": "kAk4 kAk4 maiN1 maiN1",
+    "sound": "phk_kaak4kaak4maiN1maiN1.wav",
+    "pos": "express",
+    "definition": {
+      "english": "to keep in portion and distribute among"
+    },
+    "gloss": {
+      "english": "keep.a.portion.and.distribute "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "14/Apr/2016",
+      "unix": 1460556000
+    }
+  },
+  {
+    "lexeme": "kkq",
+    "phonemic": "kak1",
+    "sound": "phk_koN2kak1.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "a stand, a frame for holding or displaying something, can be used to hang things from"
+    },
+    "gloss": {
+      "english": "stand"
+    },
+    "example": {
+      "script": "kougqkkq",
+      "phonemic": "koN2 kak1",
+      "english": "a wooden frame used for winding yarn"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "04/Feb/2016",
+      "unix": 1454504400
+    }
+  },
+  {
+    "lexeme": "kkq",
+    "phonemic": "kak1",
+    "sound": "phk_mvn2kon2lin4kak1.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "stammer, speak with sudden unwanted pauses and tendency to repeat the first letters of  words "
+    },
+    "gloss": {
+      "english": "stammer"
+    },
+    "example": {
+      "script": "mJnqkunqlinqkkq",
+      "phonemic": "mvn2 kon2 lin4 kak1 ",
+      "english": "he is a stammerer"
+    }
+  },
+  {
+    "lexeme": "kkDkaa",
+    "phonemic": "kak1 kak1 kA2 kA2",
+    "sound": "phk_kak1kak1kaa2kaa2.wav",
+    "pos": "express.",
+    "definition": {
+      "english": "to stammer extremely, to have many stammers or unwanted pauses in one's speech"
+    },
+    "gloss": {
+      "english": "extreme.stammer"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kkqesa",
+    "phonemic": "kAk3 sQ2",
+    "sound": "phk_kaak3sQ2.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "a lock"
+    },
+    "gloss": {
+      "english": "lock"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN4",
+    "sound": "phk_kaaN4phun2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a frame erected for any purpose"
+    },
+    "gloss": {
+      "english": "frame "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_au2phaa6ut3kaaN2.wai4.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to set up barrier, put something to bar"
+    },
+    "gloss": {
+      "english": "barrier"
+    },
+    "example": {
+      "script": "AWfaAutqkgqwj",
+      "phonemic": "au2 phA6 ut3 kAN2 wai4",
+      "english": "set up a barrier with bricks wall "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2 ",
+    "sound": "phk_khau3saan6tI5muN2nj4kaaN2kaa1.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "lessen, decrease, to make or become less "
+    },
+    "gloss": {
+      "english": "lessen"
+    },
+    "example": {
+      "script": "xWsnqtImugqenkgqka",
+      "phonemic": "khau3 sAn6 tI5 muN2 nj4 kAN2 kA1",
+      "english": "the husked rice in the basket has become less"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_kaaN2sqi1.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "chin"
+    },
+    "gloss": {
+      "english": "chin"
+    },
+    "example": {
+      "script": "kgqsoj",
+      "phonemic": "kAN2 sqi1",
+      "english": "slender chin, beautiful chin, graceful  chin, taper chin "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2 ",
+    "sound": "phk_taak1kaaN2taaN2thaam6khq3.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "middle, an area or point equal in distance from the ends or periphery"
+    },
+    "gloss": {
+      "english": "middle"
+    },
+    "example": {
+      "script": "tkqkgqtgqvMexa",
+      "phonemic": "tAk1 kAN2 tAN2 thAm6 khq3  ",
+      "english": "greet in the middle of a road and ask about the matter "
+    }
+  },
+  {
+    "lexeme": "tIkgqtgq",
+    "phonemic": "tI5 kAN2 tAN2",
+    "sound": "phk_tI5kaaN2taaN2.wav",
+    "pos": "adv.",
+    "definition": {
+      "english": "in the middle of a road"
+    },
+    "gloss": {
+      "english": "in the middle of a road"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqmnq",
+    "phonemic": "kAN2 mAn3",
+    "sound": "phk_kaaN2maan3.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "in the middle of a village, the open space in the middle of a village "
+    },
+    "gloss": {
+      "english": "midst.of.village"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "xJgqkgqnM",
+    "phonemic": "khvN5 kAN2 nam4",
+    "sound": "phk_khvN5kaaN2nam4.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "in the middle of a river, or the open area of a river or sea "
+    },
+    "gloss": {
+      "english": "middle of the river"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqfa",
+    "phonemic": "kAN2 phA4",
+    "sound": "phk_kaaN2phaa4.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "the sky, the expanse of the sky, the outer space, the physical universe beyond the earth's atmosphere"
+    },
+    "gloss": {
+      "english": "the sky "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqhW",
+    "phonemic": "kAN2 hAu6",
+    "sound": "phk_kaaN2haau6waa1wvn2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "the sky, the expanse of the sky, the outer space, "
+    },
+    "gloss": {
+      "english": "the sky "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "sense": "2"
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_kaaN2 .wav",
+    "pos": "n.",
+    "definition": {
+      "english": "middle, between an earlier and later period of a time, the period of time between, "
+    },
+    "gloss": {
+      "english": "period.of.time "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqxM",
+    "phonemic": "kAN2 kham5 ",
+    "sound": "phk_mvn2maa2ma1mz5kaaN2kham5.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "the night, at night, the time between the sunset to sunrise or an evening untill bed time"
+    },
+    "gloss": {
+      "english": "night"
+    },
+    "example": {
+      "script": "mJnqmamamJwqkgqxM",
+      "phonemic": "mvn2 mA2 ma1 mz5 kAN2 kham5",
+      "english": "he came at night "
+    }
+  },
+  {
+    "lexeme": "kgqxJnq",
+    "phonemic": "kAN2 khvn2",
+    "sound": "phk_kaaN2khvn2yaau2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "night, late night"
+    },
+    "gloss": {
+      "english": "night"
+    },
+    "example": {
+      "script": "kgqxJnqyW",
+      "phonemic": "kAN2 khvn2 yAu2",
+      "english": "now a days night is longer"
+    }
+  },
+  {
+    "lexeme": "kgqxJnqtigq",
+    "phonemic": "kAN2 khvn2 taiN5",
+    "sound": "phk_kaaN2khvn2taiN5.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "midnight, the time of the highest point of the mid night"
+    },
+    "gloss": {
+      "english": "midnight "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqxMkgqxJnq",
+    "phonemic": "kAN2 kham5 kAN2 khvn2",
+    "sound": "phk_kaaN2kham5kaaN2khvn2.wav",
+    "pos": "adv.",
+    "definition": {
+      "english": "in the dark night, at the deep night"
+    },
+    "gloss": {
+      "english": "at the deep night"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqnE",
+    "phonemic": "kAN2 nav6",
+    "sound": "phk_kaaN2nav6saai6laiN2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "morning"
+    },
+    "gloss": {
+      "english": "morning"
+    },
+    "example": {
+      "script": "kgqnEsjligq",
+      "phonemic": "kAN2 nav6 sAi6 laiN2",
+      "english": "bright early in the morning, at dawn "
+    }
+  },
+  {
+    "lexeme": "kgqwnq",
+    "phonemic": "kAN2 wan2 ",
+    "sound": "",
+    "pos": "n.",
+    "definition": {
+      "english": "daytime, the time during which there is daylight"
+    },
+    "gloss": {
+      "english": "daytime"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqlougqemfa",
+    "phonemic": "kAN2 wan2 loN6 mj5 phA4",
+    "sound": "phk_kaaN2wan2loN6mj5phaa4.wav",
+    "pos": "phrase",
+    "definition": {
+      "english": "in the broad day light "
+    },
+    "gloss": {
+      "english": "in the broad day light "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "13/Apr/2016",
+      "unix": 1460469600
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_kep1kaaN2.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "tax, revenue "
+    },
+    "gloss": {
+      "english": "tax"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_au2maan1taan1kaaN2wai5.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to prevent or protect from danger or unpleasant, harm "
+    },
+    "gloss": {
+      "english": "protect"
+    },
+    "example": {
+      "script": "AWmnqtnqkgqwj",
+      "phonemic": "au2 mAn1 tAn1 kAN2 wai5",
+      "english": "to protect with a mystical verse of incantation"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_hU6mav2kaN3ka1.wav",
+    "pos": "v.",
+    "sense": "2",
+    "definition": {
+      "english": "to be over attentive to listen, to pay attention to hear, as to hear distinctly or pay attention, "
+    },
+    "gloss": {
+      "english": "be over attentive to listen"
+    },
+    "example": {
+      "script": "hUmEkgqka",
+      "phonemic": "hU6 mav2 kaN3 ka1",
+      "english": "to try to listen eagerly and carefully"
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_wo2khau6laap1sj6kaN3hU6.wav",
+    "pos": "v.",
+    "definition": {
+      "english": "( of horse, dog or catttle ) to prick up one's ears, make the ears stand erect when alert"
+    },
+    "gloss": {
+      "english": "prick up"
+    },
+    "example": {
+      "script": "wuwqxWlpqeskgqhU",
+      "phonemic": "wo2 khau6 lAp1 sj6 kaN3 hU6",
+      "english": "the cows pricks their ear because of fear"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN5",
+    "sound": "phk_kaN5.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to diffuse, to spread over a wide area as kerosene spreads over the water"
+    },
+    "gloss": {
+      "english": "diffuse"
+    },
+    "example": {
+      "script": "nMminqkgqtInM",
+      "phonemic": "nam4 min6 kaN5 tI5 nam4",
+      "english": "kerosine spreads over a wide area on the water  "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "16/Apr/2016",
+      "unix": 1460728800
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_au2mon2phrA2traa2saaN1khaa1hav3nai3kaN3hom1caa1Nam2khiN2mav2ta1naa2.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "be sheltered, be protected from harm or unpleasant aspects of life, particularly as God's favour and protection "
+    },
+    "gloss": {
+      "english": "be.sheltered"
+    },
+    "example": {
+      "script": "AWmunqRfaRtasgqxahEnjkgqhuMcagMxigqmEtana",
+      "phonemic": "au2 mon2 phrA2 trA2 sAN1 khA1 hav3 nai3 kaN3 hom1 cA1 Nam2 khiN2 mav2 ta1 nA2",
+      "english": "by the grace of the Buddha, Dhamma, Sangha may you be protected and covered "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  }
+]

@@ -37,11 +37,10 @@ module.exports = StyleSheet.create({
 		fontSize: globalTextSize,
 		fontWeight: "bold"
 	},
-	row: {
+	ListRow: {
 		flex: 1,
 		padding: 0,
 		borderBottomWidth: 0.5,
-		borderColor: "#dddddd"
 	},
 	headword: {
 		fontSize: 20,
