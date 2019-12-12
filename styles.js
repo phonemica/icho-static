@@ -42,32 +42,12 @@ module.exports = StyleSheet.create({
 		padding: 0,
 		borderBottomWidth: 0.5,
 	},
-	headword: {
-		fontSize: 20,
-		color: "#444444",
-		fontFamily: 'banchob'
-	},
-	phonemic: {
-		position: 'relative',
-		top: 10,
-		paddingBottom: 10,
-		fontSize: 22,
-		color: "#444444",
-		fontFamily: 'banchob'
-	},
-	snippet: {
+	ListItem: {
 		fontSize: 18,
-		color: "#444444"
+		paddingBottom: 10,
+		paddingTop: 10
 	},
-	title: {
-		color: '#FDFDFD',
-		fontSize: 20
-	},
-	titlescript: {
-		color: '#FDFDFD',
-		fontSize: 30,
-	},
-	textinput: {
-		height: 46,
+	InfoButton: {
+		backgroundColor: headerBarColor,
 	}
 });

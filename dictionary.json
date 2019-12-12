@@ -735,5 +735,723 @@
       "date": "07/Apr/2016",
       "unix": 1459951200
     }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_au2paak1nj2maa2kaN3wai4taai3hU6.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to offend, to make ( someone ) annoyed or uncomfortable by putting something "
+    },
+    "gloss": {
+      "english": "put something "
+    },
+    "example": {
+      "script": "AWpkqenmakgqwjtjhU",
+      "phonemic": "au2 pAk1 nj2 mA2 kaN3 wai4 tAi3 hu6",
+      "english": "the loud speaker is place so near to the ear ( when it is active )"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2",
+    "sound": "phk_kaaN2mauN2.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to lay or set a trap "
+    },
+    "gloss": {
+      "english": "trap"
+    },
+    "example": {
+      "script": "kgqmogq",
+      "phonemic": "kAN2 mauN2",
+      "english": "to trawl a drag net, to lay a big long drag net to trap fish "
+    }
+  },
+  {
+    "lexeme": "kgqxJmq",
+    "phonemic": "kAN2 khvm1",
+    "sound": "phk_kaaN2khvm1.wav",
+    "pos": "v.",
+    "definition": {
+      "english": "to set a trap for bird"
+    },
+    "gloss": {
+      "english": "trap.bird"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqhiwq",
+    "phonemic": "kAN2 heu4",
+    "sound": "phk_kaaN2heu4.wav",
+    "pos": "v.",
+    "definition": {
+      "english": "to set a trap with a loop, or noose as to trap birds "
+    },
+    "gloss": {
+      "english": "set a snare"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_kaN3sut1.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to open as an umbrella "
+    },
+    "gloss": {
+      "english": "open "
+    },
+    "example": {
+      "script": "kgqsutq",
+      "phonemic": "kan3 sut1",
+      "english": "to open the mosquito net as to protect from mosquito "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "04/Apr/2016",
+      "unix": 1459692000
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kaN3",
+    "sound": "phk_kaN3lom2.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to screen, to provide a screen as to give shade"
+    },
+    "gloss": {
+      "english": "screen "
+    },
+    "example": {
+      "script": "kgqluM",
+      "phonemic": "kaN3 lom2",
+      "english": "to screen to protect from wind"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "04/Apr/2016",
+      "unix": 1459692000
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN4",
+    "sound": "phk_kaaN4tav3.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "an administration unit or area or circle"
+    },
+    "gloss": {
+      "english": "administrative unit"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "11/Feb/2016",
+      "unix": 1455109200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN1",
+    "sound": "phk_yv2kaaN1.wav",
+    "pos": "n.",
+    "sense": "2",
+    "definition": {
+      "english": "a crossbow, a bow fixed across a weapon a wooden support, "
+    },
+    "gloss": {
+      "english": "crossbow"
+    },
+    "example": {
+      "script": "yJwqkgq",
+      "phonemic": "yv2 kAN1",
+      "english": "to shoot with a crossbow "
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN1",
+    "sound": "phk_kaaN1.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "used as a prefix to the names of some kinds of cross bow "
+    },
+    "gloss": {
+      "english": "cross bow"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqckq",
+    "phonemic": "kAN1 cAk3",
+    "sound": "phk_kaaN1caak3.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "( of legendary ) a bow having divine power and force"
+    },
+    "gloss": {
+      "english": "divine.bow "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqtgq",
+    "phonemic": "kAN1 taN2",
+    "sound": "phk_kaaN1taN2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a catapult, a fork stick with a rubber band fasten to the two prong"
+    },
+    "gloss": {
+      "english": "catapult ( photo )"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqpJnqfj",
+    "phonemic": "kAN1 pvn4 phai2",
+    "sound": "phk_kaaN1pvn4phai2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a crossbow which can shoot a fire arrow "
+    },
+    "gloss": {
+      "english": "type. crossbow"
+    },
+    "example": {
+      "script": "mukqsuwqpnqsigqAakYakgqpJnqfjlnqkogq",
+      "phonemic": "muk3 so2 pan2 sEN6 kqN3 A1 kyA1 kAN1 pvn4 phai2 lan1 kqN3",
+      "english": "the hunter/huntman put a loud noise by shooting a crossbow which can be shoot "
+    }
+  },
+  {
+    "lexeme": "kgqpY inq",
+    "phonemic": "kAN1 pjn3",
+    "sound": "phk_kaaN1pjn3.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a crossbow, a bow fixed across a wooden support with a mechanism "
+    },
+    "gloss": {
+      "english": "crossbow "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "14/Apr/2016",
+      "unix": 1460556000
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN3 ",
+    "sound": "phk_khun6taaN2kaaN3.wav",
+    "pos": "adj.",
+    "sense": "1",
+    "definition": {
+      "english": "to be broad, wide"
+    },
+    "gloss": {
+      "english": "broad "
+    },
+    "example": {
+      "script": "xunqtgqkgq",
+      "phonemic": "khun6 tAN2 kAN3",
+      "english": "broad road "
+    }
+  },
+  {
+    "subentry": "",
+    "sense": "2"
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN3",
+    "sound": "phk_hqN3hzn2kaaN3.wav",
+    "pos": "adj.",
+    "definition": {
+      "english": "spacious, having ample space ( especially of a room ) "
+    },
+    "gloss": {
+      "english": "spacious"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgDkougD",
+    "phonemic": "kAN3 kAN3 koN2 koN2",
+    "sound": "phk_kaaN3kaaN3koN2koN2.wav",
+    "pos": "express",
+    "definition": {
+      "english": "sufficiently spacious, large and accommodating. "
+    },
+    "gloss": {
+      "english": "sufficiently.spacious"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgDyEyE",
+    "phonemic": "kAN3 kAN3 yav1 yav1",
+    "sound": "phk_kaaN3kaaN3yav1yav1.wav",
+    "pos": "express",
+    "definition": {
+      "english": "sufficiently spacious, large and accommodating. lit. broad and big"
+    },
+    "gloss": {
+      "english": "sufficiently spacious"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2 ",
+    "sound": "phk_kaaN2cam2to2thzn1.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "deer, ( a corrupted sound of < kwAN2 > )"
+    },
+    "gloss": {
+      "english": "deer"
+    },
+    "example": {
+      "script": "kgqcMtuwqvJnq",
+      "phonemic": "kAN2 cam2 to2 thzn1",
+      "english": "deer is a wild animal "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN3",
+    "sound": "phk_kaaN3khaaN4tI1khq2.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "fish bone, bony part of a fish"
+    },
+    "gloss": {
+      "english": "fish bone"
+    },
+    "example": {
+      "script": "kgqxgqtIexa",
+      "phonemic": "kAN3 khAN4 tI1 khq2",
+      "english": "a fish bone stuck in the throat "
+    }
+  },
+  {
+    "lexeme": "kgqpa",
+    "phonemic": "kAN3 pA2",
+    "sound": "phk_kaaN3paa2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "a fish bone, the bony part of a fish "
+    },
+    "gloss": {
+      "english": "fish.bone"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN2 ",
+    "sound": "phk_phE2khai3phE2cep1phE2nAu6hav3kaaN2hav3kai2.wav",
+    "pos": "v.",
+    "sense": "1",
+    "definition": {
+      "english": "to avoid, to escape, be far or free from "
+    },
+    "gloss": {
+      "english": "be.free.from "
+    },
+    "example": {
+      "script": "efqxjefqcY ipqefqnWhEkgqhEkj",
+      "phonemic": "phE2 khai3 phE2 cep1 phE2 nAu6 hav3 kAN2 hav3 kai2",
+      "english": "let it be far away from danger of any sickness, pain and cold "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN4",
+    "sound": "phk_kaaN4lik3.wav",
+    "pos": "n.",
+    "sense": "2",
+    "definition": {
+      "english": "a stack, a heap of neat pile object "
+    },
+    "gloss": {
+      "english": "heap "
+    },
+    "example": {
+      "script": "kgqlikq",
+      "phonemic": "kAN4 lik3",
+      "english": "a heap of book ( neat pile object   )"
+    }
+  },
+  {
+    "lexeme": "kgq",
+    "phonemic": "kAN4",
+    "sound": "phk_phun2yaN2pen2kaaN4pen2kaaN4.wav",
+    "pos": "clf",
+    "definition": {
+      "english": "a classifier for a neat pile heap, stack "
+    },
+    "gloss": {
+      "english": "CLF-stack"
+    },
+    "example": {
+      "script": "funqygqpinqkgqpinqkgq",
+      "phonemic": "phun2 yaN2 pen2 kAN4 pen2 kAN4",
+      "english": "having stacks and stacks or large number of heaps of firewood "
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "13/Apr/2016",
+      "unix": 1460469600
+    }
+  },
+  {
+    "lexeme": "kgqka",
+    "phonemic": "kaN1 kA1",
+    "sound": "phk_khj2nam4kaN1kaa1.wav",
+    "pos": "n",
+    "sense": "1",
+    "definition": {
+      "english": "the Ganga ( a name of a river of India ) "
+    },
+    "gloss": {
+      "english": "Ganga"
+    },
+    "example": {
+      "script": "exnMkgqka",
+      "phonemic": "khj2 nam4 kaN1 kA1",
+      "english": "the river Ganga"
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgqcUwgq ( gU )",
+    "phonemic": "kAN2 cU1 waN5 ( NU2 )",
+    "sound": "phk_kaaN2cU1waN5.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "a kind of snake with black and white stripe"
+    },
+    "gloss": {
+      "english": "type. snake"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgqmJgq",
+    "phonemic": "kAN4 mzN2",
+    "sound": "phk_kaaN4mzN2.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "one of the name of a pedigree or clan of Tai Phake community "
+    },
+    "gloss": {
+      "english": "name of a pedigree "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    },
+    "notes": "ailot",
+    "date": {
+      "date": "07/Apr/2016",
+      "unix": 1459951200
+    }
+  },
+  {
+    "lexeme": "kgqwnq",
+    "phonemic": "kAN2 wan2  ",
+    "sound": "phk_kaaN2wan2auk1maa2.wav",
+    "pos": "n.",
+    "sense": "1",
+    "definition": {
+      "english": "the sun "
+    },
+    "gloss": {
+      "english": "sun"
+    },
+    "example": {
+      "script": "kgqwnqAokqma",
+      "phonemic": "kAN2 wan2 auk1 mA2",
+      "english": "be sunrise, be day break, the sun is appearing or become gradually visible "
+    }
+  },
+  {
+    "lexeme": "kgqwnqkgqcogq",
+    "phonemic": "kAN2 wan2 kaN3 cqN3",
+    "sound": "phk_kaaN2wan2kaN3cqN3.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "halo sun, the circle of light roumd the sun "
+    },
+    "gloss": {
+      "english": "halo sun"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqxigq",
+    "phonemic": "kAN2 wan2 khEN4",
+    "sound": "phk_kaaN2wan2khEN4.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "the state of intense bright and heat of the sun "
+    },
+    "gloss": {
+      "english": "state of intense bright and heat of the sun "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqcouM",
+    "phonemic": "kAN2 wan2 com2",
+    "sound": "phk_kaaN2wan2com2.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "sun set, sun down, the daily disappearance of the sun below the horizon"
+    },
+    "gloss": {
+      "english": "sun set"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqcj",
+    "phonemic": "kAN2 wan2 cAi4",
+    "sound": "phk_kaaN2wan2caai4.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "afternoon, lit. the sun is slanting to the west "
+    },
+    "gloss": {
+      "english": "afternoon.   "
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqtigq",
+    "phonemic": "kAN2 wan2 tEN5",
+    "sound": "phk_kaaN2wan2tEN5.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "midday, noon "
+    },
+    "gloss": {
+      "english": "noon"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqtouukq",
+    "phonemic": "kAN2 wan2 tok1 ",
+    "sound": "phk_kaaN2wan2tok1.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "sunset. be the sun set, the daily disappearance of the sun below the horizon"
+    },
+    "gloss": {
+      "english": "sunset"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqtoukqcouM",
+    "phonemic": "kAN2 wan2 tok1 com2",
+    "sound": "phk_kaaN2wan2tok1com2.wav",
+    "pos": "v.",
+    "definition": {
+      "english": "be sunset and diappeared"
+    },
+    "gloss": {
+      "english": "be sunset and diappeared"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqtoukqcoMhoM",
+    "phonemic": "kAN2 wan2 tok1 cqm4 hqm4",
+    "sound": "phk_kaaN2wan2tok1cqm4hqm4.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "dusk, the period of sun set with partial light or twilight hour "
+    },
+    "gloss": {
+      "english": "dusk"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqtogq",
+    "phonemic": "kAN2 wan2 tauN1 ",
+    "sound": "phk_kaaN2wan2tauN1.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "be thrown the ray of sunlight, bright light of the sunbeam throw to somewhere "
+    },
+    "gloss": {
+      "english": "sunbeam"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
+  },
+  {
+    "lexeme": "kgqwnqwj",
+    "phonemic": "kAN2 wan2 wAi1",
+    "sound": "phk_kaaN2wan2waai1.wav",
+    "pos": "n.",
+    "definition": {
+      "english": "the time after the midday, afternoon"
+    },
+    "gloss": {
+      "english": "afternoon"
+    },
+    "example": {
+      "script": "",
+      "phonemic": "",
+      "english": ""
+    }
   }
 ]
