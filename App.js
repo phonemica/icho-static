@@ -112,14 +112,12 @@ class EntryScreen extends React.Component {
           justifyContent: 'center',
         }}>
         <View style={styles.Container}>
-            <Text style={styles.EntryHeader}>{entry.lexeme}</Text>
-            <Text style={styles.EntryText}>{entry.phonemic}</Text>
-            <Text style={styles.EntrySection}>{entry.pos}</Text>
-            <Text style={styles.EntryText}>{entry.definition.english}</Text>
-            <Text style={styles.EntrySection}>example</Text>
-            <Text style={styles.EntryText}>
-              {JSON.stringify(entry.example)}
-            </Text>
+          <Text style={styles.EntryHeader}>{entry.lexeme}</Text>
+          <Text style={styles.EntryText}>{entry.phonemic}</Text>
+          <Text style={styles.EntrySection}>{entry.pos}</Text>
+          <Text style={styles.EntryText}>{entry.definition.english}</Text>
+          <Text style={styles.EntrySection}>example</Text>
+          <Text style={styles.EntryText}>{JSON.stringify(entry.example)}</Text>
         </View>
       </ImageBackground>
     );
