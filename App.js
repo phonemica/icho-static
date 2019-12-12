@@ -7,6 +7,7 @@ import {
   SafeAreaView,
   FlatList,
   TouchableOpacity,
+  ImageBackground,
 } from 'react-native';
 import {createAppContainer, StackNavigator} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
@@ -58,22 +59,34 @@ class HomeScreen extends React.Component {
   };
   render() {
     return (
-      <SafeAreaView style={styles.Container}>
-        <FlatList
-          data={dictionary}
-          keyExtractor={item => item.uid}
-          renderItem={({item}) => (
-            <TouchableOpacity
-              style={[styles.ListRow]}
-              onPress={() => this.toEntry(item)}>
-              <Text style={[styles.ListItemLexeme]}>{item.lexeme}</Text>
-              <Text numberOfLines={1} style={[styles.ListItem]}>
-                {item.definition.english}
-              </Text>
-            </TouchableOpacity>
-          )}
-        />
-      </SafeAreaView>
+      <ImageBackground
+        source={require('./bg.jpg')}
+        style={{
+          marginTop: -56, // set by Android
+          flex: 1,
+          paddingTop: 48,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+        <SafeAreaView style={styles.HomeContainer}>
+          <FlatList
+            data={dictionary}
+            keyExtractor={item => item.uid}
+            renderItem={({item}) => (
+              <View style={styles.ListRowContainer}>
+                <TouchableOpacity
+                  style={[styles.ListRow]}
+                  onPress={() => this.toEntry(item)}>
+                  <Text style={[styles.ListItemLexeme]}>{item.lexeme}</Text>
+                  <Text numberOfLines={1} style={[styles.ListItem]}>
+                    {item.definition.english}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            )}
+          />
+        </SafeAreaView>
+      </ImageBackground>
     );
   }
 }
@@ -82,20 +95,33 @@ class HomeScreen extends React.Component {
 class EntryScreen extends React.Component {
   static navigationOptions = ({navigation}) => {
     return {
-      title: navigation.getParam('itemtitle'),
+      title: '', //navigation.getParam('itemtitle'),
     };
   };
   render() {
     const {navigation} = this.props;
     const entry = navigation.getParam('item', 'NO-ID');
     return (
-      <View style={styles.Container}>
-        <Text style={styles.EntryHeader}>{entry.lexeme}</Text>
-        <Text>{entry.phonemic}</Text>
-        <Text>{entry.pos}</Text>
-        <Text>{entry.definition.english}</Text>
-        <Text>{JSON.stringify(entry.example)}</Text>
-      </View>
+      <ImageBackground
+        source={require('./bg.jpg')}
+        style={{
+          marginTop: -56, // set by Android
+          flex: 1,
+          paddingTop: 48,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+        <View style={styles.Container}>
+            <Text style={styles.EntryHeader}>{entry.lexeme}</Text>
+            <Text style={styles.EntryText}>{entry.phonemic}</Text>
+            <Text style={styles.EntrySection}>{entry.pos}</Text>
+            <Text style={styles.EntryText}>{entry.definition.english}</Text>
+            <Text style={styles.EntrySection}>example</Text>
+            <Text style={styles.EntryText}>
+              {JSON.stringify(entry.example)}
+            </Text>
+        </View>
+      </ImageBackground>
     );
   }
 }
@@ -109,42 +135,75 @@ class AboutScreen extends React.Component {
     const {navigation} = this.props;
     const otherParam = navigation.getParam('otherParam', 'some default value');
     return (
-      <View style={styles.AboutPage}>
-        <View>
-          <Text style={styles.AboutTextBold}>{metaData.name}</Text>
-          <Text style={styles.AboutText}>version {metaData.version}</Text>
+      <ImageBackground
+        source={require('./bg.jpg')}
+        style={{
+          marginTop: -56,
+          flex: 1,
+          paddingTop: 48,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+        <View style={styles.AboutPage}>
+          <View>
+            <Text style={styles.AboutTextBold}>{metaData.name}</Text>
+            <Text style={styles.AboutText}>version {metaData.version}</Text>
+          </View>
+          <View>
+            <Text style={styles.AboutTextBold}>Data curation</Text>
+            <Text style={styles.AboutText}>{metaData.curator}</Text>
+          </View>
+          <View>
+            <Text style={styles.AboutTextBold}>Project supervision</Text>
+            <Text style={styles.AboutText}>{metaData.supervisor}</Text>
+          </View>
+          <View>
+            <Text style={styles.AboutTextBold}>Application development</Text>
+            <Text style={styles.AboutText}>{metaData.developer}</Text>
+            <Text style={styles.AboutText}>{metaData.thanks}</Text>
+          </View>
+          <View style={{flex: 1}}>
+            <Text> </Text>
+          </View>
+          <View>
+            <Text style={styles.AboutTextBold}>Published by</Text>
+            <Text style={styles.AboutText}>{metaData.publisher}</Text>
+            <Text style={styles.AboutText}>{metaData.date}</Text>
+          </View>
         </View>
-        <View>
-          <Text style={styles.AboutTextBold}>Data curation</Text>
-          <Text style={styles.AboutText}>{metaData.curator}</Text>
-        </View>
-        <View>
-          <Text style={styles.AboutTextBold}>Project supervision</Text>
-          <Text style={styles.AboutText}>{metaData.supervisor}</Text>
-        </View>
-        <View>
-          <Text style={styles.AboutTextBold}>Application development</Text>
-          <Text style={styles.AboutText}>{metaData.developer}</Text>
-          <Text style={styles.AboutText}>{metaData.thanks}</Text>
-        </View>
-        <View style={{flex: 1}}>
-          <Text> </Text>
-        </View>
-        <View>
-          <Text style={styles.AboutTextBold}>Published by</Text>
-          <Text style={styles.AboutText}>{metaData.publisher}</Text>
-          <Text style={styles.AboutText}>{metaData.date}</Text>
-        </View>
-      </View>
+      </ImageBackground>
     );
   }
 }
 
 const RootStack = createStackNavigator(
   {
-    Home: HomeScreen,
-    About: AboutScreen,
-    Entry: EntryScreen,
+    Home: {
+      screen: HomeScreen,
+      navigationOptions: {
+        title: 'Home',
+        headerStyle: {
+          backgroundColor: 'transparent',
+        },
+      },
+    },
+    About: {
+      screen: AboutScreen,
+      navigationOptions: {
+        title: 'About',
+        headerStyle: {
+          backgroundColor: 'transparent',
+        },
+      },
+    },
+    Entry: {
+      screen: EntryScreen,
+      navigationOptions: {
+        headerStyle: {
+          backgroundColor: 'transparent',
+        },
+      },
+    },
   },
   {
     initialRouteName: 'Home',
